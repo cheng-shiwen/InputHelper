@@ -1,3 +1,3 @@
 [
-  { "keys": ["ctrl+shift+z"], "command": "input_helper" }
+  { "keys": ["ctrl+space"], "command": "input_helper" }
 ]

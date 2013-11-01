@@ -4,6 +4,9 @@ import pygtk
 pygtk.require('2.0')
 import gtk
 
+import os
+import sys
+
 class SimpleTextInput:
     def print_text(self):
         buffer = self.textInput.get_buffer()
@@ -31,10 +34,11 @@ class SimpleTextInput:
         window.set_title("Input Helper")
         window.set_default_size(300, 60)
         window.set_position(gtk.WIN_POS_CENTER_ALWAYS)
+        window.set_icon_from_file(os.path.join(os.path.dirname(sys.argv[0]), "icon.png"))
         window.connect("destroy", self.destroy)
         window.set_border_width(10)
         self.textInput = gtk.Entry()
-        self.textInput.set_tooltip_text("Press Ctrl-Enter or Enter to insert string")
+        self.textInput.set_tooltip_text("Press Enter or Ctrl-Enter to insert string")
         self.textInput.connect("key_press_event", self.on_key_press)
         window.add(self.textInput)
         window.show_all()

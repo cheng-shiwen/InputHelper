@@ -1,20 +1,21 @@
 {
-    "schema_version": "1.0",
+    "schema_version": "1.0.1",
     "packages": [
         {
             "name": "InputHelper",
-            "description": "Open new input form to input text using IMEs like SCIM,ibus. Temporarily solve input problem on Linux.",
-            "author": "Anh Tu Nguyen <xgenvn@gmail.com>",
-            "homepage": "https://github.com/xgenvn/InputHelper",
-            "last_modified": "2012-07-17 10:55:22",
+            "description": "Open new input form to input text using IMEs like scim, ibus in sublime text 2. Temporarily solve input problem on Linux.",
+            "author": "Shiwen Cheng <chengshiwen0103@gmail.com>",
+            "homepage": "https://github.com/cheng-shiwen/InputHelper",
+            "last_modified": "2013-11-01 23:55:30",
             "platforms": {
                 "linux": [
                     {
-                        "version": "1.0.0",
-                        "url": "https://nodeload.github.com/xgenvn/InputHelper/zipball/v1.0"
+                        "version": "1.0.1",
+                        "url": "https://github.com/cheng-shiwen/InputHelper"
                     }
                 ]
-            }
+            },
+            "thanks": "original source by Anh Tu Nguyen <xgenvn@gmail.com>"
         }
     ]
 }

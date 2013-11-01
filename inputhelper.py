@@ -7,11 +7,8 @@ class InputHelperCommand(sublime_plugin.TextCommand):
 
     def run(self, edit):
         sel = self.view.sel()
-        selected = None
         text_output = None
         args = []
-        if len(sel) > 0:
-            selected = sel
 
         if sublime.platform() == 'linux':
 
@@ -24,7 +21,5 @@ class InputHelperCommand(sublime_plugin.TextCommand):
 
         if text_output:
             for region in sel:
-                if region.size() == 0:
-                    self.view.insert(edit, region.end(), text_output)
-                else:
-                    self.view.replace(edit, region, text_output)
+                self.view.erase(edit, region)
+                self.view.insert(edit, region.begin(), text_output)
