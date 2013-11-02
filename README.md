@@ -5,6 +5,14 @@ Install this repository
 
 >git clone https://github.com/cheng-shiwen/InputHelper.git
 
+Or click button **Download ZIP** to download *InputHelper-master.zip* into folder *Downloads*
+
+>cd ~/.config/sublime-text-2/Packages
+
+>unzip ~/Downloads/InputHelper-master.zip
+
+>mv InputHelper-master InputHelper
+
 ## Usage
 - FIRST, make sure you can use your Input Method normally (test it in some textinput field)
 - To insert text by using Input Method, use: Ctrl+Space
