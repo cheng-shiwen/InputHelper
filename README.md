@@ -1,3 +1,13 @@
+## InputHelper
+This is a plugin to popup a textinput field to input Chinese text using IM (ibus, scim) in Sublime Text 2 under Linux.
+
+New updated version 1.1.0 is:
+
+- Fixed that the inserted string will not be selected after inputted, so that users can continue to input text.
+- Added an icon for the pop-up application.
+
+The history version 1.0.0 is seen at `https://github.com/xgenvn/InputHelper` by Anh Tu Nguyen.
+
 ## Installation
 Install this repository
 
@@ -5,7 +15,7 @@ Install this repository
 
 >git clone https://github.com/cheng-shiwen/InputHelper.git
 
-Or click button **Download ZIP** to download *InputHelper-master.zip* into folder *Downloads*
+Or click button [**Download ZIP**][1] to download *InputHelper-master.zip* into folder *Downloads*
 
 >cd ~/.config/sublime-text-2/Packages
 
@@ -22,5 +32,6 @@ Or click button **Download ZIP** to download *InputHelper-master.zip* into folde
 - Usual key combination: Ctrl+Space -> Enter or Ctrl+Enter
 
 ## Thanks
-- This plugin is based on ColorPicker for inspiration.
-- The original source is made by Anh Tu Nguyen <xgenvn@gmail.com>.
+- The original source is made by Anh Tu Nguyen, xgenvn@gmail.com.
+
+[1]: https://github.com/cheng-shiwen/InputHelper/archive/master.zip
