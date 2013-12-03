@@ -1,0 +1,5 @@
+{
+    "description": "Plugin to input Chinese text using IM (ibus, scim) under Linux.",
+    "url": "https://github.com/cheng-shiwen/InputHelper",
+    "version": "2013.11.01.23.55.30"
+}
