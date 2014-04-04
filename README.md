@@ -11,17 +11,18 @@ The history version 1.0.0 is seen at `https://github.com/xgenvn/InputHelper` by 
 ## Installation
 Install this repository
 
->cd ~/.config/sublime-text-2/Packages
+	cd ~/.config/sublime-text-2/Packages
+	git clone https://github.com/cheng-shiwen/InputHelper.git
 
->git clone https://github.com/cheng-shiwen/InputHelper.git
+Or only one command
+
+	git clone https://github.com/cheng-shiwen/InputHelper.git ~/.config/sublime-text-2/Packages/InputHelper
 
 Or click button [**Download ZIP**][1] to download *InputHelper-master.zip* into folder *Downloads*
 
->cd ~/.config/sublime-text-2/Packages
-
->unzip ~/Downloads/InputHelper-master.zip
-
->mv InputHelper-master InputHelper
+	cd ~/.config/sublime-text-2/Packages
+	unzip ~/Downloads/InputHelper-master.zip
+	mv InputHelper-master InputHelper
 
 ## Usage
 - FIRST, make sure you can use your Input Method normally (test it in some textinput field)
