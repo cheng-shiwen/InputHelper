@@ -12,11 +12,11 @@ The history version 1.0.0 is seen at `https://github.com/xgenvn/InputHelper` by 
 Install this repository
 
 	cd ~/.config/sublime-text-2/Packages
-	git clone https://github.com/cheng-shiwen/InputHelper.git
+	git clone https://github.com/chengshiwen/InputHelper.git
 
 Or only one command
 
-	git clone https://github.com/cheng-shiwen/InputHelper.git ~/.config/sublime-text-2/Packages/InputHelper
+	git clone https://github.com/chengshiwen/InputHelper.git ~/.config/sublime-text-2/Packages/InputHelper
 
 Or click button [**Download ZIP**][1] to download *InputHelper-master.zip* into folder *Downloads*
 
@@ -35,4 +35,4 @@ Or click button [**Download ZIP**][1] to download *InputHelper-master.zip* into 
 ## Thanks
 - The original source is made by Anh Tu Nguyen, xgenvn@gmail.com.
 
-[1]: https://github.com/cheng-shiwen/InputHelper/archive/master.zip
+[1]: https://github.com/chengshiwen/InputHelper/archive/master.zip
